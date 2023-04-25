@@ -106,6 +106,36 @@ include "Includes/header.php";
         </div>
     </section>
 
+    <!-- test défilement skills -->
+<!-- <style>
+    .conteneur1{
+    overflow: hidden;
+    max-width: 960px;
+    /* margin: 50px auto; */
+}
+.d1{
+    width: 840px;
+    height: 120px;
+    background-color: #EDEDED;
+    background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo123.png");
+    background-size: contain;
+    animation: defilement1 10s linear infinite;
+}
+@keyframes defilement1{
+    0%{transform: translate(0,0);}
+    100%{transform: translate(-2880px,0);}
+}
+
+.d1:hover{
+    animation-play-state: paused;
+}
+
+</style>
+<div class="conteneur1">
+  <div class="d1"></div>
+</div> -->
+
+
     <!--------------------------------------Section Mes Projets-------------------------------------->
     <section class="projects">
         <h2 id="Mes projets">My projects</h2>
@@ -143,7 +173,7 @@ include "Includes/header.php";
                     </div>
                 </div>
                 <div class="bloc_projet">
-                    <h3>Site de sophrologie / hypnose (projet en cours)</h3> 
+                    <h3>Sophrologie / hypnose (projet en cours)</h3> 
                     <div class="bloc_image">
                         <a href="" target="_blank"><img src="img/enCours2.png" alt="Bubble_aim" class="images_projet"></a>      
                     </div>
