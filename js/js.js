@@ -62,7 +62,7 @@ jQuery(function(){
 
 //----------------------------------------------texte dynamic page d'accueil-------------------------------------------------------
 const txtAnim = document.getElementById('textdynamic');
-console.log(txtAnim);
+// console.log(txtAnim);
 
 new Typewriter(txtAnim, {
     deleteSpeed: 40
@@ -70,33 +70,30 @@ new Typewriter(txtAnim, {
 .changeDelay(100)
 .typeString('Développeur ')
 // .pauseFor(0)
-.typeString('<span style="color: #e44d26;"><strong>HTML</strong></span> !')
+.typeString('<span style="color: #e44d26;"><strong>HTML</strong></span>')
+.pauseFor(1000)
+.deleteChars(4)
+.typeString('<span style="color: #006bc0;"><strong>CSS</strong></span>')
+.pauseFor(1000)
+.deleteChars(3)
+.typeString('<span style="color: #f7e018;"><strong>Javascript</strong></span>')
+.pauseFor(1000)
+.deleteChars(10)
+.typeString('<span style="color: #6280b6;"><strong>PhP</strong></span>')
+.pauseFor(1000)
+.deleteChars(3)
+.typeString('<span style="color: #fe2d1f;"><strong>Laravel</strong></span>')
+.pauseFor(1000)
+.deleteChars(7)
+.typeString('<strong>Symfony</strong></span>')
+.pauseFor(1000)
+.deleteChars(7)
+.typeString('<span style="color: #036288;"><strong>My</strong></span><span style="color: #e28e01;"><strong>SQL</strong></span>')
 .pauseFor(1000)
 .deleteChars(6)
-.typeString('<span style="color: #006bc0;"><strong>CSS</strong></span> !')
+.typeString('<span style="color: #cd669a;"><strong>SASS</strong></span>')
 .pauseFor(1000)
-.deleteChars(5)
-.typeString('<span style="color: #f7e018;"><strong>Javascript</strong></span> !')
-.pauseFor(1000)
-.deleteChars(12)
-.typeString('<span style="color: #6280b6;"><strong>PhP</strong></span> !')
-.pauseFor(1000)
-.deleteChars(5)
-.typeString('<span style="color: #fe2d1f;"><strong>Laravel</strong></span> !')
-.pauseFor(1000)
-.deleteChars(9)
-.typeString('<span style="color: #036288;"><strong>My</strong></span><span style="color: #e28e01;"><strong>SQL</strong></span> !')
-.pauseFor(1000)
-.deleteChars(8)
-.typeString('<span style="color: #cd669a;"><strong>SASS</strong></span> !')
-.pauseFor(1000)
-.deleteChars(6)
-// .typeString('<strong>Front-End</strong> !')
-// .pauseFor(1000)
-// .deleteChars(11)
-// .typeString('<strong>Back-End</strong> !')
-// .pauseFor(1000)
-// .deleteChars(10)
+.deleteChars(4)
 .typeString('<strong>Web junior</strong>')
 .start()
 
@@ -108,6 +105,7 @@ let modal = document.getElementById("myModal");
 let img = document.getElementById("myImg"); // Get the image
 let modalImg = document.getElementById("img01"); // Create the modal
 let captionText = document.getElementById("caption"); // Get the caption
+
 img.onclick = function(){
   modal.style.display = "block";  
   modalImg.src = "images/CV2023.png"; 
