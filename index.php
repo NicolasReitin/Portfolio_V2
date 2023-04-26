@@ -6,7 +6,7 @@ include "Includes/header.php";
     <section class="home">
         <div class="home_avatar">
             <div class="text_avatar">
-                <!-- <h7>Salut, moi c'est</h7> -->
+                <h7>Salut, moi c'est</h7>
                 <h6>Nicolas <br> REITIN</h6>
                 <p id="textdynamic" class="para_home"></p>
                 <!-- <p class="para2_home">en cours de formation</p> -->
