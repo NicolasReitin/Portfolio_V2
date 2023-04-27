@@ -24,7 +24,7 @@
                 <div class="main_menu">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#Présentation">About me</a></li>
+                        <li><a href="#Présentation">About</a></li>
                         <li><a href="#Mes compétences">Skills</a></li>
                         <li><a href="#Mes projets">Projects</a></li>
                         <li><a href="#Contact">Contact</a></li>
