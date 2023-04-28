@@ -34,13 +34,13 @@ header{
 }
 .projects{
     height: 100%;
-    margin-bottom: 50px;
+    margin-top: 200px;
     margin-left: 10%;
     margin-right: 10%;
 }
 .contact{
     height: 100%;
-    margin-bottom: 50px;
+    margin-top: 200px;
 }
 footer{
     height: 100%;
@@ -272,11 +272,15 @@ h7{
 
 
 /* ------------------------------------Sections mes projets------------------------------------ */
+.container_projet{
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
 .parent {
     display: grid;
     justify-self: center;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 50px;
     grid-row-gap: 20px;
     justify-self: center;
@@ -328,8 +332,8 @@ h2{
 .images_projet{
     opacity: 1;
     width: 600px;
-    height: 378px;
-    min-height: 278px;
+    height: 390px;
+    /* min-height: 278px; */
     backface-visibility: hidden;
     /* background-color: #333; */
     transition: 1s;
@@ -362,7 +366,7 @@ h2{
     text-align: center;
 }
 .bloc_projet:hover img{
-    transform: scale(1.12);
+    /* transform: scale(1.12); */
     opacity: 0.15;
 }
 .bloc_projet:hover .hoverImage {
@@ -475,7 +479,7 @@ opacity: 0.5;
 @media screen and (max-width:1920px){
     .images_projet{
         width: 400px;
-        height: 278px;
+        height: 290px;
     }
     .images_projet_large{
         width: 400px;
@@ -502,7 +506,7 @@ opacity: 0.5;
         
     .images_projet{
         width: 400px;
-        height: 278px;
+        height: 290px;
     }
     .images_projet_large{
         width: 400px;
