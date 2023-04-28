@@ -54,7 +54,6 @@ include "Includes/header.php";
     </section>
 
 
-
     <!--------------------------------------Section Mes Projets-------------------------------------->
     <section class="projects">
         <h2 id="Mes projets">Projects</h2>
@@ -68,6 +67,9 @@ include "Includes/header.php";
                         <div class="hoverImage">
                             <div class="text">NR formation</div>
                         </div>
+                        <div class="textHoverImage">
+                            <p><span>Tech :</span> HTML / CSS / PhP / MySQL</p>
+                        </div>
                     </div>    
                 </div>
                 <div class="div2"> 
@@ -76,6 +78,9 @@ include "Includes/header.php";
                         <a href="Projets/Spotizer/public" target="_blank"><img src="images/Aperçu_Spotizer.png" alt="Spotizer" class="images_projet"></a>
                         <div class="hoverImage">
                             <div class="text">Spotizer</div>
+                        </div>
+                        <div class="textHoverImage">
+                            <p><span>Tech :</span> HTML / CSS / Laravel / Javascript / PhP / MySQL</p>
                         </div>
                     </div>            
                 </div>
@@ -86,6 +91,9 @@ include "Includes/header.php";
                         <div class="hoverImage">
                             <div class="text">Site Budget</div>
                         </div>
+                        <div class="textHoverImage">
+                            <p><span>Tech :</span> HTML / CSS / Javascript</p>
+                        </div>
                     </div>            
                 </div>
                 <div class="div4"> 
@@ -94,6 +102,9 @@ include "Includes/header.php";
                         <a href="Projets/meteo/index.html" target="_blank"><img src="images/Apercu_appli_meteo.png" alt="pokéball" class="images_projet"></a>    
                         <div class="hoverImage">
                             <div class="text">Weather Live</div>
+                        </div>
+                        <div class="textHoverImage">
+                            <p><span>Tech :</span> HTML / CSS / Javascript / API</p>
                         </div>
                     </div>            
                 </div>
@@ -104,6 +115,9 @@ include "Includes/header.php";
                         <div class="hoverImage">
                             <div class="text">Local Market</div>
                         </div> 
+                        <div class="textHoverImage">
+                            <p><span>Tech :</span> HTML / CSS / PhP / MySQL</p>
+                        </div>
                     </div>
                 </div>
                 <div class="div6"> 
@@ -113,14 +127,20 @@ include "Includes/header.php";
                         <div class="hoverImage">
                             <div class="text">Sophrologie / hypnose (projet en cours)</div>
                         </div>
+                        <div class="textHoverImage">
+                            <p><span>Tech :</span> Wordpress</p>
+                        </div>
                     </div>
                 </div>
                 <div class="div7"> 
                     <div class="bloc_projet">
                         <!-- <h3>Hôtel unique</h3> -->
                         <a href="Projets/Hotel_unique/index.html" target="_blank"><img src="images/Apercu_hotel_unique.png" alt="hotel_unique" class="images_projet"></a>      
-                        <div class="12">
+                        <div class="hoverImage">
                             <div class="text">Hôtel unique</div>
+                        </div>
+                        <div class="textHoverImage">
+                            <p><span>Tech :</span> HTML / CSS</p>
                         </div>
                     </div>             
                 </div>

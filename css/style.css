@@ -342,7 +342,17 @@ h2{
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.textHoverImage{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -350,17 +360,27 @@ h2{
 }
 .bloc_projet:hover img{
     transform: scale(1.12);
-    opacity: 0.2;
+    opacity: 0.15;
 }
 .bloc_projet:hover .hoverImage {
+    opacity: 1;
+}
+.bloc_projet:hover .textHoverImage {
     opacity: 1;
 }
 .text {
     /* background-color: #04AA6D; */
     color: white;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 25px;
     /* padding: 16px 32px; */
+}
+.textHoverImage p span{
+font-weight: bold;
+}
+.textHoverImage p{
+    font-style: italic;
+    font-size: 16px;
 }
 
 
