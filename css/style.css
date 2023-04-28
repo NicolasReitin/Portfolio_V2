@@ -270,124 +270,102 @@ h7{
   } 
 
 
+/* ------------------------------------Sections mes projets------------------------------------ */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+    }
+    
+    .div1 { grid-area: 1 / 2 / 3 / 3; }
+    .div2 { grid-area: 1 / 3 / 2 / 4; }
+    .div3 { grid-area: 2 / 3 / 3 / 4; }
+    .div4 { grid-area: 1 / 4 / 2 / 5; }
+    .div5 { grid-area: 2 / 4 / 4 / 5; }
+    .div6 { grid-area: 3 / 3 / 4 / 4; }
+    .div7 { grid-area: 3 / 2 / 4 / 3; } 
+    
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.case_images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap : 5%;	
+}
+
+.bloc_projet{
+    position: relative;
+    /* margin-top: 35px; */
+    /* transition: 1s;  */
+    overflow: hidden;
+}  
 
 
+/* .bloc_image{
+    margin-top: 0px;
+    transition: 1s;
+    overflow: hidden;
+    height: 75%;
+} */
+
+.bloc_projet h3{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.images_projet{
+    opacity: 1;
+    width: 600px;
+    height: 378px;
+    min-height: 278px;
+    backface-visibility: hidden;
+    /* background-color: #333; */
+    transition: 1s;
+}
+
+.images_projet_large{
+    width: 600px;
+    height: 800px;
+    transition: 1s;
+}
+
+.hoverImage {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.bloc_projet:hover img{
+    transform: scale(1.12);
+    opacity: 0.2;
+}
+.bloc_projet:hover .hoverImage {
+    opacity: 1;
+}
+.text {
+    /* background-color: #04AA6D; */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    /* padding: 16px 32px; */
+}
 
 
 
 /* ------------------------------------Sections Compétences------------------------------------ */
-/* @keyframes load{
-from {
-    width: 0%
-}
-}
-@-webkit-keyframes load{
-from {
-    width: 0%
-}
-}
-@-moz-keyframes load{
-from {
-    width: 0%
-}
-}
-@-o-keyframes load{
-from {
-    width: 0%
-}
-}
-.font-skill{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.bar{
-width: 60%;
-background-color: rgb(61, 61, 61);
-padding: 2px;
-border-radius: 15px;
-margin-top: 40px;
-font-size: 14px;
-color: whitesmoke;
-font-weight: bolder;
-}
-.bar::before{
-content:  attr(data-skill);
-background-color: #e44d26;
-display: inline-block;
-padding: 5px 0 5px 10px;
-border-radius: inherit;
-}
-.animation::before{
-content:  attr(data-skill);
-background-color: #e44d26;
-display: inline-block;
-padding: 5px 0 5px 10px;
-border-radius: inherit;
-animation: load 2s 0s;
--webkit-animation: load 2s 0s;
--moz-animation: load 2s 0s;
--o-animation: load 2s 0s;
-}
-.bar.css::before{
-background-color: #006bc0;
-}
-.bar.javascript::before{
-background-color: #f7e018;
-}
-.bar.php::before{
-background-color: #6280b6;
-}
-.bar.laravel::before{
-background-color: #fe2d1f;
-}
-.bar.SQL::before{
-    background: linear-gradient(90deg, rgba(0,97,138,1) 0%, rgba(228,142,0,1) 100%);
-}
-.bar.sass::before{
-background-color: #cd669a;
-}
-.bar.git::before{
-background-color: #f05033;
-}
-.bar.bootstrap::before{
-background-color: #563d7c;
-}
-.bar.wordpress::before{
-background-color: #21759a;
-}
-
-
-.bar.scroll1::before{
-width: calc(100% - 10px);
-}
-.bar.scroll2::before{
-width: calc(95% - 10px);
-}
-.bar.scroll3::before{
-width: calc(60% - 10px);
-}
-.bar.scroll4::before{
-width: calc(70% - 10px);
-}
-.bar.scroll4_5::before{
-width: calc(90% - 10px);
-}
-.bar.scroll5::before{
-width: calc(90% - 10px);
-}
-.bar.scroll6::before{
-width: calc(80% - 10px);
-}
-.bar.scroll7::before{
-width: calc(75% - 10px);
-}
-.bar.scroll8::before{
-width: calc(95% - 10px);
-}
-.bar.scroll9::before{
-width: calc(50% - 10px);
-} */
 
 
 .bothSide{
@@ -420,71 +398,7 @@ width: calc(50% - 10px);
 }
 
   
-/* ------------------------------------Sections mes projets------------------------------------ */
 
-h2{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-.case_images{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap : 5%;	
-}
-.images_projet{
-    width: 500px;
-    height: 275px;
-    min-height: 275px;
-    /* background-color: #333; */
-    transition: 1s;
-}
-
-
-.parent {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 30px;
-    }
-    
-    .div1 { grid-area: 1 / 2 / 3 / 3; }
-    .div2 { grid-area: 1 / 3 / 2 / 4; }
-    .div3 { grid-area: 2 / 3 / 3 / 4; }
-    .div4 { grid-area: 1 / 4 / 2 / 5; }
-    .div5 { grid-area: 2 / 4 / 4 / 5; }
-    .div6 { grid-area: 3 / 3 / 4 / 4; }
-    .div7 { grid-area: 3 / 2 / 4 / 3; } 
-    
-
-.bloc_projet{
-    /* margin-top: 35px; */
-    /* transition: 1s;  */
-    overflow: hidden;
-    
-}  
-.bloc_image{
-    margin-top: 0px;
-    transition: 1s;
-    overflow: hidden;
-    /* height: 75%; */
-}
-
-.bloc_projet img:hover{
-    transform: scale(1.15);
-    border-radius: 15px;
-}
-
-.bloc_projet h3{
-    text-align: center;
-    font-style: italic;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 /* ------------------------------------Formulaire de contact------------------------------------ */
 .map_formu{
     display: flex;
@@ -537,8 +451,13 @@ opacity: 0.5;
 
 @media screen and (max-width:1920px){
     .images_projet{
-        width: 375px;
-        height: 225px;
+        width: 400px;
+        height: 278px;
+    }
+    .images_projet_large{
+        width: 400px;
+        height: 600px;
+        transition: 1s;
     }
 }
 
@@ -657,8 +576,6 @@ opacity: 0.5;
         /* ------------------------------------projects------------------------------------ */
 
         .images_projet{
-            width: 275px;
-            height: 225px;
             margin-bottom: 10px;
         }
         /* ------------------------------------Contact------------------------------------ */

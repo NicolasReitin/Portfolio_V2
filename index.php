@@ -52,6 +52,83 @@ include "Includes/header.php";
             </form>
         </div>
     </section>
+
+
+
+    <!--------------------------------------Section Mes Projets-------------------------------------->
+    <section class="projects">
+        <h2 id="Mes projets">Projects</h2>
+        <div class="container_projet">
+
+            <div class="parent">
+                <div class="div1"> 
+                    <div class="bloc_projet">
+                        <!-- <h3>NR formation</h3> -->
+                        <a href="Projets/E_formation/index.php" target="_blank"><img src="images/Apercu_E_formation2.png" alt="e-learning" class="images_projet_large" ></a>
+                        <div class="hoverImage">
+                            <div class="text">NR formation</div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="div2"> 
+                    <div class="bloc_projet">
+                        <!-- <h3>Spotizer</h3> -->
+                        <a href="Projets/Spotizer/public" target="_blank"><img src="images/Aperçu_Spotizer.png" alt="Spotizer" class="images_projet"></a>
+                        <div class="hoverImage">
+                            <div class="text">Spotizer</div>
+                        </div>
+                    </div>            
+                </div>
+                <div class="div3"> 
+                    <div class="bloc_projet">
+                        <!-- <h3>Site Budget</h3> -->
+                        <a href="Projets/Appli_budget/index.html" target="_blank"><img src="images/Apercu_appli_budget.png" alt="Appli budget" class="images_projet"></a>      
+                        <div class="hoverImage">
+                            <div class="text">Site Budget</div>
+                        </div>
+                    </div>            
+                </div>
+                <div class="div4"> 
+                    <div class="bloc_projet">
+                        <!-- <h3>Weather Live</h3> -->
+                        <a href="Projets/meteo/index.html" target="_blank"><img src="images/Apercu_appli_meteo.png" alt="pokéball" class="images_projet"></a>    
+                        <div class="hoverImage">
+                            <div class="text">Weather Live</div>
+                        </div>
+                    </div>            
+                </div>
+                <div class="div5"> 
+                    <div class="bloc_projet">
+                        <!-- <h3>Local Market</h3> -->
+                        <a href="Projets/localMarket/index.php" target="_blank"><img src="images/Apercu_LocalMarket2.png" alt="Site Local Market" class="images_projet_large" ></a>
+                        <div class="hoverImage">
+                            <div class="text">Local Market</div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="div6"> 
+                    <div class="bloc_projet">
+                        <!-- <h3>Sophrologie / hypnose (projet en cours)</h3>  -->
+                        <a href="" target="_blank"><img src="img/enCours2.png" alt="Bubble_aim" class="images_projet"></a>      
+                        <div class="hoverImage">
+                            <div class="text">Sophrologie / hypnose (projet en cours)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div7"> 
+                    <div class="bloc_projet">
+                        <!-- <h3>Hôtel unique</h3> -->
+                        <a href="Projets/Hotel_unique/index.html" target="_blank"><img src="images/Apercu_hotel_unique.png" alt="hotel_unique" class="images_projet"></a>      
+                        <div class="12">
+                            <div class="text">Hôtel unique</div>
+                        </div>
+                    </div>             
+                </div>
+            </div> 
+                          
+        </div>
+    </section>
+
     <!--------------------------------------Section Mes compétences-------------------------------------->
     <section class="skills">
         <div class="font-skill">
@@ -135,136 +212,7 @@ include "Includes/header.php";
 </div> -->
 
 
-    <!--------------------------------------Section Mes Projets-------------------------------------->
-    <section class="projects">
-        <h2 id="Mes projets">Projects</h2>
-        <div class="container_projet">
-
-            <div class="parent">
-                <div class="div1"> 
-                    <div class="bloc_projet">
-                        <h3>NR formation</h3>
-                        <div class="bloc_image">
-                            <a href="Projets/E_formation/index.php" target="_blank"><img src="images/Apercu_E_formation2.png" alt="e-learning" class="images_projet" style="height: 600px"></a>
-                        </div>
-                    </div>    
-                </div>
-                <div class="div2"> 
-                    <div class="bloc_projet">
-                        <h3>Spotizer</h3>
-                        <div class="bloc_image">
-                            <a href="Projets/Spotizer/public" target="_blank"><img src="images/Aperçu_Spotizer.png" alt="Spotizer" class="images_projet"></a>
-                        </div>
-                    </div>            
-                </div>
-                <div class="div3"> 
-                    <div class="bloc_projet">
-                        <h3>Site Budget</h3>
-                        <div class="bloc_image">
-                            <a href="Projets/Appli_budget/index.html" target="_blank"><img src="images/Apercu_appli_budget.png" alt="Appli budget" class="images_projet"></a>      
-                        </div>
-                    </div>            
-                </div>
-                <div class="div4"> 
-                    <div class="bloc_projet">
-                        <h3>Weather Live</h3>
-                        <div class="bloc_image">
-                            <a href="Projets/meteo/index.html" target="_blank"><img src="images/Apercu_appli_meteo.png" alt="pokéball" class="images_projet"></a>    
-                        </div>
-                    </div>            
-                </div>
-                <div class="div5"> 
-                    <div class="bloc_projet">
-                        <h3>Local Market</h3>
-                        <div class="bloc_image">
-                            <a href="Projets/localMarket/index.php" target="_blank"><img src="images/Apercu_LocalMarket2.png" alt="Site Local Market" class="images_projet" style="height: 600px"></a>
-                        </div> 
-                    </div>
-                </div>
-                <div class="div6"> 
-                    <div class="bloc_projet">
-                        <h3>Sophrologie / hypnose (projet en cours)</h3> 
-                        <div class="bloc_image">
-                            <a href="" target="_blank"><img src="img/enCours2.png" alt="Bubble_aim" class="images_projet"></a>      
-                        </div>
-                    </div>
-                </div>
-                <div class="div7"> 
-                    <div class="bloc_projet">
-                        <h3>Hôtel unique</h3>
-                        <div class="bloc_image">
-                            <a href="Projets/Hotel_unique/index.html" target="_blank"><img src="images/Apercu_hotel_unique.png" alt="hotel_unique" class="images_projet"></a>      
-                        </div>
-                    </div>             
-                </div>
-            </div> 
-              
-        
-            <!-- original -->
-            <!-- <hr>
-            <div class="case_images">
-                <div class="bloc_projet">
-                    <h3>Spotizer</h3>
-                    <div class="bloc_image">
-                        <a href="Projets/Spotizer/public" target="_blank"><img src="images/Aperçu_Spotizer.png" alt="Spotizer" class="images_projet"></a>
-                    </div>
-                </div>
-                <div class="bloc_projet">
-                    <h3>NR formation</h3>
-                    <div class="bloc_image">
-                        <a href="Projets/E_formation/index.php" target="_blank"><img src="images/Apercu_E_formation.png" alt="pokéball" class="images_projet"></a>    
-                    </div>
-                </div>
-                <div class="bloc_projet">
-                    <h3>Weather Live</h3>
-                    <div class="bloc_image">
-                        <a href="Projets/meteo/index.html" target="_blank"><img src="images/Apercu_appli_meteo.png" alt="pokéball" class="images_projet"></a>    
-                    </div>
-                </div>
-                <div class="bloc_projet">
-                    <h3>Local Market</h3>
-                    <div class="bloc_image">
-                        <a href="Projets/localMarket/index.php" target="_blank"><img src="images/Apercu_LocalMarket.png" alt="Site Local Market" class="images_projet"></a>
-                    </div> 
-                </div>
-                <div class="bloc_projet">
-                    <h3>Site Budget</h3>
-                    <div class="bloc_image">
-                        <a href="Projets/Appli_budget/index.html" target="_blank"><img src="images/Apercu_appli_budget.png" alt="Appli budget" class="images_projet"></a>      
-                    </div>
-                </div>
-                <div class="bloc_projet">
-                    <h3>Sophrologie / hypnose (projet en cours)</h3> 
-                    <div class="bloc_image">
-                        <a href="" target="_blank"><img src="img/enCours2.png" alt="Bubble_aim" class="images_projet"></a>      
-                    </div>
-                </div>
-                <div class="bloc_projet">
-                    <h3>Hôtel unique</h3>
-                    <div class="bloc_image">
-                        <a href="Projets/Hotel_unique/index.html" target="_blank"><img src="images/Apercu_hotel_unique.png" alt="hotel_unique" class="images_projet"></a>      
-                    </div>
-                </div>                
-                <div class="bloc_projet">
-                    <h3>Boucherie / traiteur</h3>
-                    <div class="bloc_image">
-                        <a href="" target="_blank"><img src="img/enCours2.png" alt="Site Twisto" class="images_projet"></a>      
-                    </div>
-                </div>
-                <div class="bloc_projet">
-                    <h3>Salon de coiffure</h3>
-                    <div class="bloc_image">
-                        <a href="" target="_blank"><img src="img/enCours2.png" alt="Site Twisto" class="images_projet"></a>      
-                    </div>
-                </div>
-            </div> -->
-
-            
-        </div>
-
-
-    </section>
-
+    
     <!--------------------------------------Formulaire de Contact-------------------------------------->
     <section class="contact">
         <div class="container">
