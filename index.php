@@ -20,17 +20,14 @@ include "Includes/header.php";
 
     <!--------------------------------------Section présentation-------------------------------------->
     <section class="presentation">
-        <div class="container">
-            <h4 id="Présentation">Salut, moi c'est Nicolas, je suis ravi de vous rencontrer.</h4>
-            <p>
-            Je viens de terminer une formation de développeur Web et d'obtenir mon diplôme (Titre de certification - Développeur Web)
-            et je <b>recherche actuellement une entreprise</b> dans laquelle je pourrais apporter mon <b>savoir-faire</b> et mon <b>savoir-être</b> et acquérir de <b>nouvelles compétences.</b> <br><br>
-            J'aimerais pour cela effectuer une alternance de <b>Concépteur Développeur d'Applications</b> à partir de septembre 2023 sur <b>Caen</b> et ses alentours dans le cadre d'un emploi en présentiel ou bien dans <b>toute la France</b> dans le cadre d'un hybride ou d'un full-remote. <br><br>
-            J'ai également travaillé pendant 12 ans dans le secteur bancaire et le courtage et suite à une reconversion professionnelle, j'ai décidé de faire du métier de développeur
-            mon nouveau métier et d'y faire carrière "pour le meilleur et pour le pire". <br> <br>
+        <div class="container" style="max-width: 1000px">
+            <p id="Présentation">Hello World! Je m'appelle Nicolas REITIN et je suis développeur Web Junior.</p>
+            <p>Avant de me lancer dans le développement, j'ai travaillé en tant que conseiller bancaire et courtier pendant 12 ans. J'ai décidé de me reconvertir dans le développement web et mobile car je suis passionné par ce domaine en constante évolution.</p>
+            <p>J'ai donc suivi une formation en développement web et mobile où j'ai acquis des connaissances solides en HTML, CSS, JavaScript, PHP, Laravel et SASS. Ma curiosité naturelle m'incite à apprendre de nouveaux langages et frameworks, et je suis actuellement en train de m'autoformer sur Symfony.</p>
+            <p>Mes expériences en tant que conseiller bancaire et courtier m'ont appris à être rigoureux, organisé et à travailler avec précision et efficacité. Ces compétences sont très utiles dans le développement web et mobile où la précision et l'organisation sont des éléments clés.</p>
+            <p>Je suis convaincu que mes compétences techniques, ma motivation et mes expériences passées feront de moi un atout précieux pour tout projet de développement web ou mobile. Je suis prêt à travailler dur et à contribuer positivement à une équipe de développement.</p>
 
-            <u>Je vous présente ici mon portfolio et les projets sur lesquels j'ai travaillé :</u> 
-            </p>
+            <p>Je vous présente ici mon portfolio et les projets sur lesquels j'ai travaillé.</p>
 
             
             <div class="box_cv">
@@ -80,7 +77,7 @@ include "Includes/header.php";
                             <div class="text">Spotizer</div>
                         </div>
                         <div class="textHoverImage">
-                            <p><span>Tech :</span> HTML / CSS / Laravel / Javascript / PhP / MySQL</p>
+                            <p><span>Tech :</span> HTML / CSS / SASS / Laravel / Javascript / MySQL</p>
                         </div>
                     </div>            
                 </div>
