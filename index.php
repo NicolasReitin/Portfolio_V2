@@ -147,7 +147,7 @@ include "Includes/header.php";
     </section>
 
     <!--------------------------------------Section Mes compétences-------------------------------------->
-    <section class="skills">
+    <!-- <section class="skills">
         <div class="font-skill">
             <h2 id="Mes compétences">My skills</h2>
             <div class="bothSide">
@@ -197,36 +197,43 @@ include "Includes/header.php";
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!-- test défilement skills -->
-<!-- <style>
-    .conteneur1{
-    overflow: hidden;
-    max-width: 960px;
-    /* margin: 50px auto; */
-}
-.d1{
-    width: 840px;
-    height: 120px;
-    background-color: #EDEDED;
-    background-image: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/diapo123.png");
-    background-size: contain;
-    animation: defilement1 10s linear infinite;
-}
-@keyframes defilement1{
-    0%{transform: translate(0,0);}
-    100%{transform: translate(-2880px,0);}
-}
+    <div class="about" id="about" style="display: block;">
+    
+        <div class="aboutLanguage">
+            <div class="slide">
+                <ul class="slideContent">
+                    <li><img src="icones/html.png" alt=""></li>
+                    <li><img src="icones/css.png" alt=""></li>
+                    <li><img src="icones/JS.png" alt=""></li>
+                    <li><img src="icones/php.png" alt=""></li>
+                    <li><img src="icones/sass.png" alt=""></li>
+                    <li><img src="icones/wordpress.png" alt=""></li>
+                    <li><img src="icones/bootstrap.png" alt=""></li>
+                    <li><img src="icones/laravel.png" alt=""></li>
+                    <li><img src="icones/symfony.png" alt=""></li>
+                    <li><img src="icones/mysql.png" alt=""></li>
+                    <li><img src="icones/git.png" alt=""></li>
+                  </ul>
+                  <ul class="slideContent2">
+                    <li><img src="icones/html.png" alt=""></li>
+                    <li><img src="icones/css.png" alt=""></li>
+                    <li><img src="icones/JS.png" alt=""></li>
+                    <li><img src="icones/php.png" alt=""></li>
+                    <li><img src="icones/sass.png" alt=""></li>
+                    <li><img src="icones/wordpress.png" alt=""></li>
+                    <li><img src="icones/bootstrap.png" alt=""></li>
+                    <li><img src="icones/laravel.png" alt=""></li>
+                    <li><img src="icones/symfony.png" alt=""></li>
+                    <li><img src="icones/mysql.png" alt=""></li>
+                    <li><img src="icones/git.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-.d1:hover{
-    animation-play-state: paused;
-}
-
-</style>
-<div class="conteneur1">
-  <div class="d1"></div>
-</div> -->
+    
 
 
     

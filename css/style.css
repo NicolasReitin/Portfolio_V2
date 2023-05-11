@@ -394,7 +394,7 @@ font-weight: bold;
 
 /* ------------------------------------Sections Compétences------------------------------------ */
 
-
+/* 
 .bothSide{
     width: 100%;
     display: flex;
@@ -422,8 +422,70 @@ font-weight: bold;
 }
 .margin_icon_skill{
     margin-top: 40px;
+} */
+
+
+/* -------------------Logo's Carousel------------------- */
+@keyframes slideEffect {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-1150px);
+    }
 }
 
+@keyframes slideEffect2 {
+    0% {
+        transform: translateX(1150px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+.about {
+    height: 30vh;
+} 
+.slide {
+    width: 50vw;
+    margin-left: 25vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+    padding: 5px 0 5px 0;
+}
+.slideContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    width: 580px;
+    animation: slideEffect 20s linear infinite;
+}
+.slideContent img {
+    width: 100px;
+    height: auto;
+}
+.slideContent2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    width: 580px;
+    animation: slideEffect2 20s linear infinite;
+}
+.slideContent2 img {
+    width: 100px;
+    height: auto;
+}
+  
   
 
 /* ------------------------------------Formulaire de contact------------------------------------ */
