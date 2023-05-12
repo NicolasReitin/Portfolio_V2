@@ -466,7 +466,7 @@ font-weight: bold;
     gap: 20px;
     list-style: none;
     width: 580px;
-    animation: slideEffect 20s linear infinite;
+    animation: slideEffect 15s linear infinite;
 }
 .slideContent img {
     width: 100px;
@@ -479,7 +479,7 @@ font-weight: bold;
     gap: 20px;
     list-style: none;
     width: 580px;
-    animation: slideEffect2 20s linear infinite;
+    animation: slideEffect2 15s linear infinite;
 }
 .slideContent2 img {
     width: 100px;
