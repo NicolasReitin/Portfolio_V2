@@ -6,7 +6,7 @@ include "Includes/header.php";
     <section class="home">
         <div class="home_avatar">
             <div class="text_avatar">
-                <h7><span style="font-size: 40px">👋</span> Salut, je suis</h7>
+                <h7>Salut, je suis</h7>
                 <h6>Nicolas <br> REITIN</h6>
                 <p id="textdynamic" class="para_home"></p>
                 <!-- <p class="para2_home">en cours de formation</p> -->
@@ -120,7 +120,7 @@ include "Includes/header.php";
                 <div class="div6"> 
                     <div class="bloc_projet">
                         <!-- <h3>Sophrologie / hypnose (projet en cours)</h3>  -->
-                        <a href="" target="_blank"><img src="img/enCours2.png" alt="Bubble_aim" class="images_projet"></a>      
+                        <a href="https://www.rosemarieallaire.fr" target="_blank"><img src="images/Apercu_rose-marie.png" alt="Bubble_aim" class="images_projet"></a>      
                         <div class="hoverImage">
                             <div class="text">Sophrologie / hypnose (projet en cours)</div>
                         </div>
@@ -147,7 +147,7 @@ include "Includes/header.php";
     </section>
 
     <!--------------------------------------Section Mes compétences-------------------------------------->
-    <!-- <section class="skills">
+    <section class="skills">
         <div class="font-skill">
             <h2 id="Mes compétences">My skills</h2>
             <div class="bothSide">
@@ -197,43 +197,7 @@ include "Includes/header.php";
                 </div>
             </div>
         </div>
-    </section> -->
-
-    <div class="about" id="about" style="display: block;">
-    
-        <div class="aboutLanguage">
-            <div class="slide">
-                <ul class="slideContent">
-                    <li><img src="icones/html.png" alt=""></li>
-                    <li><img src="icones/css.png" alt=""></li>
-                    <li><img src="icones/JS.png" alt=""></li>
-                    <li><img src="icones/php.png" alt=""></li>
-                    <li><img src="icones/sass.png" alt=""></li>
-                    <li><img src="icones/wordpress.png" alt=""></li>
-                    <li><img src="icones/bootstrap.png" alt=""></li>
-                    <li><img src="icones/laravel.png" alt=""></li>
-                    <li><img src="icones/symfony.png" alt=""></li>
-                    <li><img src="icones/mysql.png" alt=""></li>
-                    <li><img src="icones/git.png" alt=""></li>
-                  </ul>
-                  <ul class="slideContent2">
-                    <li><img src="icones/html.png" alt=""></li>
-                    <li><img src="icones/css.png" alt=""></li>
-                    <li><img src="icones/JS.png" alt=""></li>
-                    <li><img src="icones/php.png" alt=""></li>
-                    <li><img src="icones/sass.png" alt=""></li>
-                    <li><img src="icones/wordpress.png" alt=""></li>
-                    <li><img src="icones/bootstrap.png" alt=""></li>
-                    <li><img src="icones/laravel.png" alt=""></li>
-                    <li><img src="icones/symfony.png" alt=""></li>
-                    <li><img src="icones/mysql.png" alt=""></li>
-                    <li><img src="icones/git.png" alt=""></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    
+    </section>
 
 
     
