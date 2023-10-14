@@ -21,7 +21,7 @@ include "Includes/header.php";
     <!--------------------------------------Section présentation-------------------------------------->
     <section class="presentation">
         <div class="container" style="max-width: 1000px">
-        <p id="Présentation">Hello World! Je m'appelle Nicolas REITIN et je suis développeur Web Junior.</p>
+            <p id="Présentation">Hello World! Je m'appelle Nicolas REITIN et je suis développeur Web Junior.</p>
             <p>Avant de me lancer dans le développement, j'ai travaillé en tant que conseiller bancaire et courtier pendant 12 ans. J'ai décidé de me reconvertir dans le développement web et mobile car je suis passionné par ce domaine en constante évolution.</p>
             <p>Je suis actuellement en alternance avec la société <a href="https://xr.plus/fr/" style="color: gold">XR.plus</a> à Caen afin de préparer un Bachelor Concépteur Développeur d'Applications en partenariat avec l'école <a href="https://www.creative-formation.fr/" style="color: gold">Créative</a> et j'ai suivi une formation en développement web et mobile où j'ai acquis des connaissances solides en HTML, CSS, JavaScript, PHP, Laravel et SASS. Ma curiosité naturelle m'incite à apprendre de nouveaux langages et frameworks, et je suis actuellement en train de m'autoformer sur Symfony.</p>
             <p>Mes expériences en tant que conseiller bancaire et courtier m'ont appris à être rigoureux, organisé et à travailler avec précision et efficacité. Ces compétences sont très utiles dans le développement web où la précision et l'organisation sont des éléments clés.</p>
@@ -59,20 +59,21 @@ include "Includes/header.php";
             <div class="parent">
                 <div class="div1"> 
                     <div class="bloc_projet">
-                        <!-- <h3>NR formation</h3> -->
-                        <a href="Projets/E_formation/index.php" target="_blank"><img src="images/Apercu_E_formation2.png" alt="e-learning" class="images_projet_large" ></a>
+                        <!-- <h3>Sophrologie / hypnose (projet en cours)</h3>  -->
+                        <a href="https://www.rosemarieallaire.fr" target="_blank"><img src="images/Apercu_rose-marie.png" alt="Bubble_aim" class="images_projet_large"></a>      
                         <div class="hoverImage">
-                            <div class="text">NR formation</div>
+                            <div class="text">Sophrologie / hypnose (projet en cours)</div>
                         </div>
                         <div class="textHoverImage">
-                            <p><span>Tech :</span> HTML / CSS / PhP / MySQL</p>
+                            <p><span>Tech :</span> Wordpress</p>
                         </div>
+                        
                     </div>    
                 </div>
                 <div class="div2"> 
                     <div class="bloc_projet">
                         <!-- <h3>Spotizer</h3> -->
-                        <a href="Projets/Spotizer/public" target="_blank"><img src="images/Aperçu_Spotizer.png" alt="Spotizer" class="images_projet"></a>
+                        <a href="https://projects.nicolas-reitin.fr/Spotizer/public" target="_blank"><img src="images/Aperçu_Spotizer.png" alt="Spotizer" class="images_projet"></a>
                         <div class="hoverImage">
                             <div class="text">Spotizer</div>
                         </div>
@@ -84,7 +85,7 @@ include "Includes/header.php";
                 <div class="div3"> 
                     <div class="bloc_projet">
                         <!-- <h3>Site Budget</h3> -->
-                        <a href="Projets/Appli_budget/index.html" target="_blank"><img src="images/Apercu_appli_budget.png" alt="Appli budget" class="images_projet"></a>      
+                        <a href="https://projects.nicolas-reitin.fr/Appli_budget/index.html" target="_blank"><img src="images/Apercu_appli_budget.png" alt="Appli budget" class="images_projet"></a>      
                         <div class="hoverImage">
                             <div class="text">Site Budget</div>
                         </div>
@@ -95,20 +96,20 @@ include "Includes/header.php";
                 </div>
                 <div class="div4"> 
                     <div class="bloc_projet">
-                        <!-- <h3>Weather Live</h3> -->
-                        <a href="Projets/meteo/index.html" target="_blank"><img src="images/Apercu_appli_meteo.png" alt="pokéball" class="images_projet"></a>    
+                        <!-- <h3>NR formation</h3> -->
+                        <a href="https://projects.nicolas-reitin.fr/E_formation/index.php" target="_blank"><img src="images/Apercu_E_formation.png" alt="e-learning" class="images_projet" ></a>
                         <div class="hoverImage">
-                            <div class="text">Weather Live</div>
+                            <div class="text">NR formation</div>
                         </div>
                         <div class="textHoverImage">
-                            <p><span>Tech :</span> HTML / CSS / Javascript / API</p>
+                            <p><span>Tech :</span> HTML / CSS / PhP / MySQL</p>
                         </div>
                     </div>            
                 </div>
                 <div class="div5"> 
                     <div class="bloc_projet">
                         <!-- <h3>Local Market</h3> -->
-                        <a href="Projets/localMarket/index.php" target="_blank"><img src="images/Apercu_LocalMarket2.png" alt="Site Local Market" class="images_projet_large" ></a>
+                        <a href="https://projects.nicolas-reitin.fr/localMarket/index.php" target="_blank"><img src="images/Apercu_LocalMarket2.png" alt="Site Local Market" class="images_projet_large" ></a>
                         <div class="hoverImage">
                             <div class="text">Local Market</div>
                         </div> 
@@ -119,20 +120,21 @@ include "Includes/header.php";
                 </div>
                 <div class="div6"> 
                     <div class="bloc_projet">
-                        <!-- <h3>Sophrologie / hypnose (projet en cours)</h3>  -->
-                        <a href="https://www.rosemarieallaire.fr" target="_blank"><img src="images/Apercu_rose-marie.png" alt="Bubble_aim" class="images_projet"></a>      
+                        <!-- <h3>Weather Live</h3> -->
+                        <a href="https://projects.nicolas-reitin.fr/meteo/index.html" target="_blank"><img src="images/Apercu_appli_meteo.png" alt="pokéball" class="images_projet"></a>    
                         <div class="hoverImage">
-                            <div class="text">Sophrologie / hypnose (projet en cours)</div>
+                            <div class="text">Weather Live</div>
                         </div>
                         <div class="textHoverImage">
-                            <p><span>Tech :</span> Wordpress</p>
+                            <p><span>Tech :</span> HTML / CSS / Javascript / API</p>
                         </div>
+                        
                     </div>
                 </div>
                 <div class="div7"> 
                     <div class="bloc_projet">
                         <!-- <h3>Hôtel unique</h3> -->
-                        <a href="Projets/Hotel_unique/index.html" target="_blank"><img src="images/Apercu_hotel_unique.png" alt="hotel_unique" class="images_projet"></a>      
+                        <a href="https://projects.nicolas-reitin.fr/Hotel_unique/index.html" target="_blank"><img src="images/Apercu_hotel_unique.png" alt="hotel_unique" class="images_projet"></a>      
                         <div class="hoverImage">
                             <div class="text">Hôtel unique</div>
                         </div>
@@ -212,10 +214,10 @@ include "Includes/header.php";
                     <br>
                     <ion-icon class="mail" name="mail-outline"></ion-icon><a href="mailto: contact@nicolas.reitin.fr">  contact@nicolas.reitin.fr</a> 
                 </p>
-                <div class="formu">
+                <!-- <div class="formu">
                     <p>
                         <a href="mailto: contact@nicolas.reitin.fr"><input type="email" class="btn btn-outline-warning" value="Contact par mail"></a>
-                    </p>
+                    </p> -->
                     <!-- <form action="" method="post">
                     <div class="form-group">
                         <label for="nom">Entrez votre nom</label>
